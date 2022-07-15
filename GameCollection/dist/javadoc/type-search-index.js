@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","u":"allclasses-index.html"},{"p":"uKhan.Collection.games","l":"FXMLGamesController"},{"p":"uKhan.Collection.games","l":"GameCollection"},{"p":"uKhan.Collection","l":"GameRecord"},{"p":"uKhan.Collection","l":"MediaTypes"}];updateSearchResults();

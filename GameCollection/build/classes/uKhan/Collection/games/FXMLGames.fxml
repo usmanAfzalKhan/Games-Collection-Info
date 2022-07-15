@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+
+<VBox fx:id="mainGridPane"
+      xmlns:fx="http://javafx.com/fxml/1" 
+      fx:controller="uKhan.Collection.games.FXMLGamesController" >
+
+    <children>
+        <BorderPane>
+            <left>    
+                <Button fx:id="btnLoad" text="LOAD FILE"  />
+            </left>
+        </BorderPane>
+        <BorderPane>
+            <center>   
+                <TextArea fx:id="txtMainInfo" />
+            </center>
+        </BorderPane>
+        <Label fx:id="lblUserMessages"  />
+        <BorderPane>
+            <right>
+                <ComboBox fx:id="ddlPickGames"  />
+            </right>
+        </BorderPane>
+    </children>
+</VBox>
+
+
